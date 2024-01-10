@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="calcButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblConSem" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblMiles" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblDays" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblAirfare" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblCarRental" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblParkingFees" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblTaxi" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txtTaxi" alignment="0" pref="74" max="32767" attributes="0"/>
+                          <Component id="txtParkingFees" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtDays" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtAirfare" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtMiles" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtCarRental" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtConSem" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblLodging" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txtLodging" min="-2" pref="87" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
+                      <Component id="lblAllowableExpenses" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblTotalExpenses" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblExcess" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTextField1" max="32767" attributes="0"/>
+                                  <Component id="txtExcess" max="32767" attributes="0"/>
+                                  <Component id="txtAmountSaved" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jScrollPane1" min="-2" pref="437" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="60" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDays" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDays" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblAllowableExpenses" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblAirfare" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAirfare" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCarRental" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCarRental" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblMiles" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMiles" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblParkingFees" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtParkingFees" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblTaxi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTaxi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblConSem" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtConSem" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLodging" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtLodging" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTotalExpenses" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblExcess" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtExcess" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAmountSaved" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+              <Component id="calcButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="21" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblDays">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number Of Days On The Trip"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAirfare">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Airfare Charges ($)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCarRental">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car Rental Charges ($)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMiles">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number Of Miles Driven (private car)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblParkingFees">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parking Fees ($)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTaxi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Taxi Charges ($)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblConSem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Conference Or Seminar Registration Fees ($)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLodging">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lodging Charges ($ Per Night)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDays">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAirfare">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCarRental">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMiles">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtParkingFees">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTaxi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtConSem">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLodging">
+    </Component>
+    <Component class="javax.swing.JButton" name="calcButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAllowableExpenses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total Allowable Expenses"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="- $37 per day for meals&#xa;- Parking fees, up to $10.00 per day&#xa;- Taxi charges up to $20.00 per day&#xa;- Lodging charges up to $95.00 per day&#xa;- If a private vehicle is used, $0.27 per mile driven"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblTotalExpenses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total expenses incurred ($)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblExcess">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Excess That Must Be Paid"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Amount Saved"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtExcess">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAmountSaved">
+    </Component>
+  </SubComponents>
+</Form>

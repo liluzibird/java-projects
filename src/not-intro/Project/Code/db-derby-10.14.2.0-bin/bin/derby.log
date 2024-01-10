@@ -1,0 +1,31 @@
+Mon Nov 28 13:14:36 PST 2022 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Mon Nov 28 13:14:37 PST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0184-c017-7d02-ffff96198e86 
+on database directory D:\Skool\SAC\FALL 2022\CMPR 113\Project\Code\db-derby-10.14.2.0-bin\bin\Tickets with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/D:/Skool/SAC/FALL%202022/CMPR%20113/Project/Code/db-derby-10.14.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_321-b07
+user.dir=D:\Skool\SAC\FALL 2022\CMPR 113\Project\Code\db-derby-10.14.2.0-bin
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=D:\Skool\SAC\FALL 2022\CMPR 113\Project\Code\db-derby-10.14.2.0-bin\bin
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Nov 28 13:14:39 PST 2022:
+Shutting down instance a816c00e-0184-c017-7d02-ffff96198e86 on database directory D:\Skool\SAC\FALL 2022\CMPR 113\Project\Code\db-derby-10.14.2.0-bin\bin\Tickets with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Mon Nov 28 13:14:39 PST 2022 Thread[DRDAConnThread_2,5,main] (DATABASE = Tickets), (DRDAID = {2}), Database 'Tickets' shutdown.
+----------------------------------------------------------------
+Mon Nov 28 13:14:43 PST 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 6ede40af-0184-c017-7d02-ffff96198e86 
+on database directory D:\Skool\SAC\FALL 2022\CMPR 113\Project\Code\db-derby-10.14.2.0-bin\bin\Tickets with class loader sun.misc.Launcher$AppClassLoader@1d44bcfa 
+Loaded from file:/D:/Skool/SAC/FALL%202022/CMPR%20113/Project/Code/db-derby-10.14.2.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_321-b07
+user.dir=D:\Skool\SAC\FALL 2022\CMPR 113\Project\Code\db-derby-10.14.2.0-bin
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=D:\Skool\SAC\FALL 2022\CMPR 113\Project\Code\db-derby-10.14.2.0-bin\bin
+Database Class Loader started - derby.database.classpath=''

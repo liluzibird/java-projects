@@ -1,0 +1,19 @@
+Description,ProdNum,Price
+Bolivian Dark,14-001,8.95
+Bolivian Medium,14-002,8.95
+Brazilian Dark,15-001,7.95
+Brazilian Medium,15-002,7.95
+Brazilian Decaf,15-003,8.55
+Central American Dark,16-001,9.95
+Central American Medium,16-002,9.95
+Sumatra Dark,17-001,7.95
+Sumatra Decaf,17-002,8.95
+Sumatra Medium,17-003,7.95
+Sumatra Organic Dark,17-004,11.95
+Kona Medium,18-001,18.45
+Kona Dark,18-002,18.45
+French Roast Dark,19-001,9.65
+Galapagos Medium,20-001,6.85
+Guatemalan Dark,21-001,9.95
+Guatemalan Decaf,21-002,10.45
+Guatemalan Medium,21-003,9.95
