@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PilotLicenseArchive",
+            "request": "launch",
+            "mainClass": "PilotLicenseArchive",
+            "projectName": "Week 3_81cd525f"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Week 3_81cd525f"
+        },
+        {
+            "type": "java",
+            "name": "BusinessData",
+            "request": "launch",
+            "mainClass": "BusinessData",
+            "projectName": "Week 3_81cd525f"
+        },
+        {}
+    ]
+}
