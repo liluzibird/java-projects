@@ -24,13 +24,13 @@ public class SearchStack {
 
         // ask user for element to search
         System.out.println("Enter the element to search for:");
-        int z = scanner.nextInt();
+        int Z = scanner.nextInt();
 
         // execute search
-        boolean found = findElement(S, Q, z);
+        boolean found = findElement(S, Q, Z);
 
         // output search result
-        System.out.println("Element " + z + " found: " + found);
+        System.out.println("Element " + Z + " found: " + found);
 
         // return to original stack order
         while (!Q.isEmpty()) {
@@ -44,13 +44,13 @@ public class SearchStack {
         scanner.close();
     }
 
-    public static boolean findElement(Stack<Integer> S, Queue<Integer> Q, int z) {
+    public static boolean findElement(Stack<Integer> S, Queue<Integer> Q, int Z) {
         boolean found = false;
 
-        // search stack for element z
+        // search stack for element Z
         while (!S.isEmpty()) {
             int element = S.pop();
-            if (element == z) {
+            if (element == Z) {
                 found = true;
             }
             Q.enqueue(element);
