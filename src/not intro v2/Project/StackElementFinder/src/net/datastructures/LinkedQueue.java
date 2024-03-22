@@ -20,7 +20,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
+/*
+ * Project Name: Java Project 1: StackElementFinder
+ * Name: Albert Huynh
+ * Email: alberth03@protonmail.com
+ */
 package net.datastructures;
+
+import java.util.Queue;
 
 /**
  * Realization of a FIFO queue as an adaptation of a SinglyLinkedList.

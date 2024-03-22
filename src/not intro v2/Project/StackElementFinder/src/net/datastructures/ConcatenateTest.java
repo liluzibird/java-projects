@@ -1,3 +1,9 @@
+/*
+ * Project Name: Java Project 1: StackElementFinder
+ * Name: Albert Huynh
+ * Email: alberth03@protonmail.com
+ */
+
 package net.datastructures;
 
 public class ConcatenateTest {

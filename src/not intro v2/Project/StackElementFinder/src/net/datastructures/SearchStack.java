@@ -1,6 +1,14 @@
+/*
+ * Project Name: Java Project 1: StackElementFinder
+ * Name: Albert Huynh
+ * Email: alberth03@protonmail.com
+ */
+
 package net.datastructures;
 
+import java.util.Queue;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class SearchStack {
 
