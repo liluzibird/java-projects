@@ -11,5 +11,25 @@ public class ExtendedAVLNode extends AVLNode {
 		return subtreeKeyCount;
 	}
 	
-	// Your code here
+	public void updateSubtreeKeyCount() {
+		subtreeKeyCount = 1;
+		if (getLeft() != null) {
+			subtreeKeyCount += ((ExtendedAVLNode) getLeft()).getSubtreeKeyCount();
+		}
+		if (getRight() != null) {
+			subtreeKeyCount += ((ExtendedAVLNode) getRight()).getSubtreeKeyCount();
+		}
+	}
+
+	@Override
+	public void setLeft(BSTNode newLeftChild) {
+		super.setLeft(newLeftChild);
+		updateSubtreeKeyCount();
+	}
+
+	@Override
+	public void setRight(BSTNode newRightChild) {
+		super.setRight(newRightChild);
+		updateSubtreeKeyCount();
+	}
 }
